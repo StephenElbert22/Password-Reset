@@ -5,7 +5,7 @@ if (isset($_POST['email'])) {
     require_once 'db.php';
     require_once 'config.php';
 
-    $email = trim($_POST['email']);
+    $email = trim($_POST['stephen_elbert@aol.com']);
     $email = strip_tags($email);
     $email = htmlspecialchars($email);
     $password = trim($_POST['email']);
